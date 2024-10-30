@@ -15,7 +15,7 @@ class Kalah(Game):
         # pits are numbered 0, ..., 2p-1 with p and 2p+1 being the home
         # pit for player 0 and player 1 respectively and pits numbered
         # clockwise around the board
-        self.pits = p;
+        self.pits = p
         self._start_seeds = s
         self.size = 2 * p + 2
         self.stores = [p, 2 * p + 1]
